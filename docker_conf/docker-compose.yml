@@ -8,4 +8,4 @@ services:
     volumes:
       - ./settings_local.py:/app/gdanmaku/settings_local.py
     ports:
-      - "6080:80"
+      - "6080:5000"
